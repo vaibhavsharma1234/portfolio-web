@@ -1,0 +1,65 @@
+.bg{
+
+    height: 90vh;
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("https://cygnus.vercel.app/img/blobs-01.svg");
+}
+.bg2{
+  
+
+        height: 70vh;
+        background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("https://cygnus.vercel.app/img/blobs-01.svg");
+   
+}
+.bg1{
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("https://cygnus.vercel.app/img/blobs-01.svg");
+}
+.home-hero__socials{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
+    padding: .5rem;
+}
+.home-hero__social{
+    width: 3.5rem;
+    padding: 10px;
+}
+.home-hero__social:hover{
+   background-color: rgb(4 120 87 / 1);
+}
+html{
+    font-size: 86%;
+}
+@media only screen and (max-width: 1030px){
+    .home-hero__socials{
+        display: none;
+    }
+}
+
+.plus::before {
+    content: "+";
+    display: inline-block;
+    position: relative;
+    margin-right: 8px; /* Adjust the spacing between the plus sign and text */
+    font-weight: bold;
+    font-size: 1.2rem; /* Adjust the size of the plus sign */
+    color:  rgb(16 185 129);
+  }
+  
+  .plus::after {
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 2px;
+    background: linear-gradient(90deg, rgb(239, 65, 45), rgb(79, 41, 32));
+    top: 0.85rem;
+    left: -1.5rem;
+    z-index: 5;
+    transform: rotate(90deg);
+  }
+  section {
+    /* padding: 20px;  */
+     /* Adjust this value as needed for spacing between sections */
+    overflow: hidden;
+  }

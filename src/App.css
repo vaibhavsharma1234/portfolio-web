@@ -1,0 +1,23 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100&family=Raleway&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,500&family=Roboto+Slab&family=Roboto:wght@300;400;500&display=swap'); */
+
+@font-face {
+    font-family: 'MangoSans-Regular';
+    src: url('../public/fonts/MangoSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'MangoSans-Light';
+    src: url('../public/fonts/MangoSans-Light.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+body{
+    font-family: 'MangoSans-Regular', monospace !important;
+}
+.custom-text{
+    font-family: 'MangoSans-Light', monospace !important;
+
+}
